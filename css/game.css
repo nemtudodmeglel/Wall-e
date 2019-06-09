@@ -1,0 +1,298 @@
+body
+{
+	margin: 0 10% 5% 10%;
+	background-image: url("../res/galaxy-wallp.jpg");
+	background-size: 200 300;
+	font-family: 'Righteous', cursive;
+	color: #d6cc19;
+}
+
+h1
+{
+	font-size: 3em;
+	text-align: center;
+	
+}
+#topBar
+{
+	height: 30px;
+	width: 90%;
+	border: 2px solid;
+}
+#gameField
+{
+	margin-top: 30px;
+	float: left;
+	
+	border: 2px solid;
+}
+
+#chooseBar
+{
+	margin-top: 30px;
+	margin-right: 120px;
+	float: right;
+	height: 430px;
+	width: 70px;
+	
+}
+#runButton
+{
+	width: 120;
+	height: 60;
+	margin-right: 150px;
+	float: right;
+
+
+}
+#gameDiv
+{
+	/*border: 2px solid blue;*/
+	
+	
+}
+div#executeBar
+{
+	float: left;
+	width: 850;
+	height: 50px;
+	border: 2px solid;
+	display: inline;
+
+}
+div.exCard
+{
+	border: solid 2px;
+	float: left;
+	height: 50;
+	width: 50;
+}
+
+#controller
+{
+	height: 60px ;
+	margin-top: 40%;
+	margin-right: 50px;
+	/*border: 2px solid green;*/
+}
+.object
+{
+	height: 80;
+	width: 80;
+}
+.robot
+{
+	
+}
+div.card
+{
+	height: 50;
+	width: 50;
+	border: solid 2px;
+}
+.right
+{
+	background : url('../res/right.png');
+}
+.right_down
+{
+	background : url('../res/right_down.png');
+}
+.right_up
+{
+	background : url('../res/right_up.png');
+}
+.left
+{
+	background : url('../res/left.png');
+
+}
+.left_up
+{
+	background : url('../res/left_up.png');
+}
+.left_down
+{
+	background : url('../res/left_down.png');
+}
+.up
+{
+	background : url('../res/up.png');
+}
+.up_right
+{
+	background : url('../res/up_right.png');
+}
+.up_left
+{
+	background : url('../res/up_left.png');
+}
+.down
+{
+	background : url('../res/down.png');
+}
+.down_left
+{
+	background : url('../res/down_left.png');
+}
+.down_right
+{
+	background : url('../res/down_right.png');
+}
+.cardBut
+{
+	height: 49;
+	width: 49;
+}
+.move
+{
+	background : url('../res/cards/move.png');
+}
+.move2
+{
+	background : url('../res/cards/move2.png');
+}
+.move3
+{
+	background : url('../res/cards/move3.png');
+}
+.turnR
+{
+	background : url('../res/cards/turn_right.png');
+}
+.turnL
+{
+	background : url('../res/cards/turn_left.png');
+}
+.turnA
+{
+	background : url('../res/cards/turn_around.png');
+}
+.shunt
+{
+	background : url('../res/cards/shunt.png');
+}
+.field
+{
+	border: solid 1px;
+	background-image: url("../res/field.png");
+}
+
+.spinner_l
+{
+	
+	border: solid 1px;
+	background-image: url("../res/spinner_l.png");
+}
+.spinner_r
+{
+	
+	border: solid 1px;
+	background-image: url("../res/spinner_r.png");
+}
+.finish
+{
+	
+	border: solid 1px;
+	background-image: url("../res/danger.png");
+}
+.hole
+{
+	
+	border: solid 1px;
+	background-color: black;
+}
+.rightborder
+{
+	
+	border-right: solid 4px black;
+}
+.leftborder
+{
+	
+	border-left: solid 4px black;
+}
+.upborder
+{
+	
+	border-top: solid 4px black;
+}
+.downborder
+{
+	
+	border-bottom: solid 4px black;
+}
+.start
+{
+	
+	border: solid 1px;
+}
+img#wall-e
+{
+	width: 70;
+	height: 70;
+
+}
+#walle
+{
+	position: relative;
+	width: 80;
+	height: 80;
+	border:solid 1px green;
+}
+#something_happened
+{
+	position: absolute;
+	border: solid 2px ;
+	margin: 12% 10% 10% 10%;
+	display: none;
+	height: 300px;
+	width: 600px;
+	background-image: url("../res/galaxy-wallp.jpg");
+	font-size: 2em;
+}
+#something_happened input
+{
+	float:right;
+}
+#popupDiv
+{
+	position: absolute;
+	display: none;
+	width: 50%;
+	margin-top: 13% ;
+	margin-left: 2%;
+	padding: 2% 2% 0 5%;
+	font-family: 'Righteous', cursive;
+	color: #d6cc19;
+	border: 3px solid #d6cc19;;
+	background-image: url("../res/galaxy-wallp.jpg");
+	font-size: 1em;
+}
+
+
+#popupDiv img
+{
+	width: 35px;
+	height: 35px;
+}
+
+#popupDiv li
+{
+	
+	height: 15%;
+}
+
+#info
+{
+	float: right;
+	
+}
+#ut
+{
+	float: left;
+}
+#alap	
+{
+	float: right;
+}
