@@ -3,7 +3,7 @@ This is my implementation for a school project which is a turn based one player 
 
 The original excercise description is available here: http://webprogramozas.inf.elte.hu/#!/subjects/webfejl2-pti
 
-The webpage for the game extend with registration and mapmaking is available on: http://webprogramozas.inf.elte.hu/hallgatok/dwp98s/beadando/
+The webpage for the game extended with registration and mapmaking is available on: http://webprogramozas.inf.elte.hu/hallgatok/dwp98s/beadando/
 
 For mapmaking and deleting you can use:
 
